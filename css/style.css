@@ -21,6 +21,15 @@ ul{
 margin:0;
 padding:0;
 }
+.btnright{
+    margin-right: 20px;
+    float:right;
+}
+
+.btnleft{
+    margin-left: 20px;
+    float:left;
+}
 /*--header--*/
 .header{
 	position: relative;

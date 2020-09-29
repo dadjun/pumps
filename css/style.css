@@ -292,7 +292,11 @@ ul.nav.navbar-nav li a.active {
 }
 .navbar-nav > li {
   display: inline-block !important;
-}	
+}
+
+.nav> li:hover .dropdown-menu { display :  block ;}
+
+
 .navbar-default {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0);
@@ -1468,9 +1472,9 @@ a#profile-tab {
 a#myTabDrop1 {
 	text-align: center !important;
 }
-.dropdown-menu {
+/*.dropdown-menu {
   left: 16px !important;
-}
+}*/
 /*--/typography--*/
 /*--/services--*/
 /*--blog--*/

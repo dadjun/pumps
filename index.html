@@ -4,6 +4,7 @@
 <title>Home</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,7 +16,8 @@
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
 <!--//fonts-->
-<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"> </script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"> </script>
 		  		 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -63,7 +65,24 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					  <ul class="nav navbar-nav">
 						<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-						<li><a href="gallery.html">Products</a></li>
+					<!--	<li><a href="gallery.html">Products</a></li>  data-toggle="dropdown" -->
+						  <li>
+							  <div class="dropdown">
+								  <a class="dropdown-toggle"  id="dropdownMenu1"  data-hover="dropdown" aria-haspopup="false" aria-expanded="false">
+									  Products
+									  <!--<span class="caret"></span>-->
+								  </a>
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									  <li><a href="gallery.html">foam pump</a></li>
+									  <li><a href="gallery.html">lotion pump</a></li>
+									  <li><a href="gallery.html">mist sprayer</a></li>
+									  <li role="separator" class="divider">trigger sprayer</li>
+									  <li><a href="#">Separated link</a></li>
+								  </ul>
+							  </div>
+						  </li>
+
+
 						<li><a href="about.html">About</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="blog.html">Blog</a></li>

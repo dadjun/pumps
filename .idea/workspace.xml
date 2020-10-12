@@ -118,7 +118,7 @@
       <find>li</find>
       <find>effect</find>
       <find>top</find>
-      <find>the furniture cou</find>
+      <find />
       <find>slider-icon</find>
       <find>quote-image1</find>
       <find>galerr</find>
@@ -126,7 +126,7 @@
       <find>connected-carousels</find>
       <find>star2</find>
       <find>newsletter</find>
-      <find>your e</find>
+      <find />
       <find>grid-shop</find>
       <find>bootstrap-dropdownhover.min.css</find>
       <find>images/products/fashion/</find>
@@ -255,8 +255,6 @@
         <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.product-detail.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.demo.html" />
       </list>
     </recent_temporary>
   </component>
